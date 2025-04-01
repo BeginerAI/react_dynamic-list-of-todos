@@ -92,9 +92,7 @@ export const App: React.FC = () => {
 
       {isModal && (
         <TodoModal
-          props={isModal}
           SelectTodoModal={selectedTodoId}
-          arrTodos={todos}
           closeModal={handleCloseModal}
         />
       )}

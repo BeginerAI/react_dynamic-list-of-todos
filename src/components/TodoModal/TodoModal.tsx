@@ -6,9 +6,7 @@ import { Loader } from '../Loader';
 import { User } from '../../types/User';
 
 interface Props {
-  props: boolean;
   SelectTodoModal: Todo | undefined;
-  arrTodos: Todo[];
   closeModal: () => void;
 }
 
